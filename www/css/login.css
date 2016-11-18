@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+html {
+    font: 14px "微软雅黑";
+}
+body{
+    background: #F2F2F2;
+}
+/*版心990px*/
+nav{
+    width: 100%;
+    min-width: 990px;
+    height: 70px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #D9D9D9;
+}
+nav .top_logo{
+    width: 990px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+nav .top_logo h1{
+    text-indent: -9999px;
+    width: 160px;
+    height: 60px;
+    background: url(../img/logo.png);
+}
+
+/*main*/
+main{
+    width: 990px;
+    height: 480px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+main .left-img{
+    height: 480px;
+    width: 610px;
+    background: url(../img/x1-1.jpg);
+}
+
+/*右侧*/
+main .right{
+    height: 480px;
+    width: 380px;
+}
+main .right .login-box{
+    width: 327px;
+    height: 257px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-bottom: 1px dashed #DCDCDC;
+}
+main .right .login-box h3{
+    color: #FF7E00;
+    width: 327px;
+    height: 52px;
+    line-height:52px;
+    font-size: 22px;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+main .right .login-box #formLogin{
+    width: 327px;
+    height: 184px;
+    margin: 0 auto;
+    padding: 3px;
+}
+main .right .login-box #formLogin .defaultinput_login{
+    width: 75%;
+    margin:5px auto;
+}
+
+.login-box #formLogin .defaultinput_login input{
+    display: block;
+    width: 100%;
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    padding-left: 12px;
+}
+.login-box #formLogin .defaultinput_login input:focus{
+    box-shadow: 0 0 2px #0194D4;
+}
+.login-box #formLogin .loginBtn input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    background: #ffb904;
+    text-align: center;
+}
+.login-box #formLogin .loginBtn input:hover{
+    background: darkorange;
+}
+.login-box #formLogin .searchPsw{
+    width: 75%;
+    height: 58px;
+    margin:0 auto;
+    padding: 20px 0;
+    text-align: left;
+
+}
+.login-box #formLogin .searchPsw a{
+    color: #999999;
+}
+.login-box #formLogin .searchPsw a:hover{
+    color: darkorange;
+}
+main .right .login-box>div{
+    width: 75%;
+    margin: 0 auto;
+    color: #999999;
+}
+
+
+
+main .right .regist-box{
+    width: 327px;
+    height: 223px;
+    background: #FFFFFF;
+}
+main .right .regist-box>div{
+    width: 74%;
+    height: 86px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+main .right .regist-box>div button{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    padding-left: 12px;
+    background: #FFFFFF;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 600;
+}
+main .right .regist-box>p{
+    width: 74%;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #999999;
+}

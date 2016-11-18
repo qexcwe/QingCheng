@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+html {
+    font: 14px "微软雅黑";
+}
+body{
+    background: #F2F2F2;
+}
+/*版心988*/
+nav{
+    width: 100%;
+    min-width: 988px;
+    height: 70px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #D9D9D9;
+}
+nav .top_logo{
+    width: 988px;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+nav .top_logo h1{
+    text-indent: -9999px;
+    width: 160px;
+    height: 60px;
+    background: url(../img/logo.png);
+}
+main{
+    width: 988px;
+    height: 480px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+main #regist-box{
+    width: 988px;
+    height: 480px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+}
+#regist-box .top{
+    height: 80px;
+    width: 988px;
+    border-bottom: 1px dashed #D9D9D9;
+}
+#regist-box .top span:nth-of-type(1){
+    display: inline-block;
+    width: 132px;
+    height: 40px;
+    line-height:40px;
+    color: #FF9630;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px auto 20px 20px;
+}
+#regist-box .top span:nth-of-type(2){
+    display: inline-block;
+    width: 322px;
+    height: 40px;
+    line-height:40px;
+    color: #7E7E7E;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 20px auto 20px 20px;
+}
+#regist-box .top span:nth-of-type(3){
+    display: inline-block;
+    width: 136px;
+    height: 40px;
+    line-height:40px;
+    color: #7E7E7E;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 20px auto 20px 20px;
+}
+
+
+/*表单*/
+#regist-box .main-box{
+    width: 986px;
+    height: 330px;
+    margin: 30px 0;
+}
+main #form{
+    width: 986px;
+    height: 310px;
+
+}
+#form .defaultinput{
+    width: 395px;
+    height: 40px;
+    margin: auto;
+}
+#form .defaultinput input{
+    display: block;
+    width: 100%;
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    padding-left: 12px;
+
+}
+#form .defaultinput input:focus{
+    box-shadow: 0 0 2px #0194D4;
+}
+#form .img-validate{
+    width: 395px;
+    height: 40px;
+    margin: auto;
+}
+#form .img-validate input{
+    display: block;
+    width: 233px;
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    padding-left: 12px;
+}
+#form .img-validate input:focus{
+    box-shadow: 0 0 2px #0194D4;
+}
+#form .img-validate img{
+    display: block;
+    width: 155px;
+    height: 34px;
+}
+#form .agreeMsg{
+    width: 395px;
+    height: 20px;
+    margin: auto;
+    color: #5B5B5B;
+    font-size: 12px;
+}
+#form .agreeMsg span:nth-of-type(1){
+    width: 17px;
+    height: 17px;
+    padding-right: 5px;
+}
+#form .agreeMsg a{
+    color: #5B5B5B;
+}
+#form .agreeMsg input[type="checkbox"]{
+    cursor: not-allowed;
+}
+#form .agreeMsg a:hover{
+    color: darkorange;
+}
+#form .registBtn{
+    width: 395px;
+    height: 50px;
+    margin: auto;
+    padding-top: 10px;
+}
+#form .registBtn input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    background: orange;
+}
+#form .registBtn input:hover{
+    background: darkorange;
+}
+
+
+/*S--footer*/
+footer{
+    height: 155px;
+    width: 988px;
+    margin: 0 auto;
+    position: relative;
+}
+footer .detail{
+    font-size: 12px;
+    height: 20px;
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+footer .detail a{
+    font-size: 12px;
+    color: #2EA7E0;
+    padding: 0 10px;
+}
+footer .detail s{
+    color: #cccccc;
+}
+footer .detail span{
+    padding-left: 10px;
+}

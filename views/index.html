@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--重复的head内容-->
+    {{include "share/head" head}}
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body ng-app="qingCheng">
+<!--S-header-->
+<header>
+    <!--nav部分-->
+    {{include "share/nav" nav}}
+    <!--轮播图-->
+    {{include "index/carousel" carousel}}
+</header>
+<!--E-header-->
+<!--S-main-->
+<main>
+    <!--S--明星机型-->
+    <div class="famous_phone">
+        <h2>明星机型</h2>
+        <a href="/mobile" target="_blank"><div class="N2 op"></div></a>
+        <div class="center clearfix">
+            <a href=""><div class="C1 op fl"></div></a>
+            <a href=""><div class="N20 op fr"></div></a>
+        </div>
+        <div class="bottom clearfix">
+            <a href=""><div class="T2 op fl"></div></a>
+            <a href=""><div class="N3 op fl"></div></a>
+            <a href=""><div class="V1 op fl"></div></a>
+        </div>
+    </div>
+    <!--E--明星机型-->
+    <!--S--热门配件-->
+    <div class="fitting">
+        <h2>热门配件</h2>
+        <div class="fitting_detail" ng-controller="fitting">
+            <div class="left fl">
+                <div class="top">
+                    <a href="">
+                        <img src="img/fitting/acc_01.jpg" alt="" usemap="#map1">
+                    </a>
+                    <!--实现一张图，点击不同区域，跳转到不同的href-->
+                    <map id="map1" name="map1">
+                        <area id="area1" href="#" target="_blank"
+                              shape="rect" coords="0,0,196,249" style="opacity:0.8">
+                        <area id="area2" href="#" target="_blank"
+                              shape="rect" coords="196,0,377,136" style="opacity:0.8">
+                        <area id="area3" href="#" target="_blank"
+                              shape="rect" coords="196,136,377,249" style="opacity:1">
+                        <area id="area4" href="#" target="_blank"
+                              shape="rect" coords="377,0,581,249" style="opacity:1">
+                    </map>
+                    <a href="">
+                        <img class="op" src="img/fitting/acc_02.jpg" alt="">
+                    </a>
+                </div>
+                <div class="bottom">
+                    <a href="">
+                        <img class="op" src="img/fitting/acc_03.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img class="op" src="img/fitting/acc_04.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img class="op" src="img/fitting/acc_05.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="right fr">
+                <a href="">
+                    <img class="op" src="img/fitting/acc_06.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--E--热门配件-->
+</main>
+<!--E-main-->
+<!--S-footer-->
+<footer>
+    {{include "share/foot" foot}}
+</footer>
+<!--E-footer-->
+</body>
+<script src="js/index.js"></script>
+</html>
